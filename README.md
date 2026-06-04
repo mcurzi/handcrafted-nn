@@ -74,3 +74,6 @@ Test: [1. 1. 0. 1. 0. 1. 0. 1. 0. 1.] | Res: [0.  1.  0.5] | Pred: [-0.0414534  
 Test: [0. 1. 1. 0. 1. 0. 0. 1. 1. 1.] | Res: [0. 0. 0.] | Pred: [-0.02403049  0.0070436   0.00201185]
 ```
 
+### Learning curve 
+
+![Larning Curve demo](nn_training_demo.png)
