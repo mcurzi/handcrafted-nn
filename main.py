@@ -114,7 +114,7 @@ class NeuralNetwork:
 
 ### Execution Block 
 if __name__ == "__main__":
-    # Initialize network: 10 inputs -> 16 hidden neurons -> 3 outputs
+    # Initialize network: 10 inputs -> 32 (hidden) - 16 (hidden) - 8 (hidden) -> 3 outputs
     nn = NeuralNetwork([10, 32, 16, 8, 3], activation='tanh')  # Several inner layers are required for the parity problem, the others are easier
     # nn = NeuralNetwork([10, 12, 1], activation='tanh') # To solve only the parity problem, for testing purposes
 
